@@ -652,6 +652,7 @@ body {
   background-color: #2f303a;
   padding-left: 15px;
   margin-right: 12px;
+  color: #fff;
 }
 
 .footer-mail-input::placeholder {
@@ -946,6 +947,11 @@ body {
   line-height: 14px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+}
+
+.modal-form-message:focus {
+  border-color: var(--accent-color);
+  outline: none;
 }
 
 .modal-form-checkbox-label {
